@@ -1,0 +1,11 @@
+.header {
+
+    max-height: 150px;
+    background-color: #558B2F;
+
+    &--logo img{
+
+        max-width: 100%;
+        max-height: 80px;
+    }
+}
