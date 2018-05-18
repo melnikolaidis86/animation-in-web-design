@@ -1,11 +1,46 @@
-.header {
+header {
 
-    max-height: 150px;
-    background-color: #558B2F;
+    height: 90px;
+    background-color: #5c6bc0;
 
-    &--logo img{
+    .logo {
+        display: flex;
+        align-items: center;
+        height: 100%;
 
-        max-width: 100%;
-        max-height: 80px;
+        & img{
+
+            max-width: 100%;
+            max-height: 80px;
+        }
+    }
+    
+ 
+
+    .main-navigation {
+        display: flex;
+        justify-content: flex-end;
+
+        &--nav {
+            height: 100%;
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+
+            &--item {
+
+                &__link {
+                    text-decoration: none;
+                    color: #FFF;
+                    font-size: 1rem;
+                    padding: 10px;
+                    transition: border, .3s ease-in;
+
+                    &:hover {
+                        border-bottom: 1px solid #FFF;
+                    }
+                }
+            }
+        }
     }
 }
