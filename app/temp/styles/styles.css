@@ -1563,6 +1563,63 @@ header .main-navigation--nav--item__link:hover {
                         border-bottom: 1px solid #FFF;
                     }
 
+.section--intro {
+
+        margin-bottom: 35px;
+    }
+
+.section--intro__title {
+
+            padding-bottom: .8rem;
+            color: #455a64;
+        }
+
+.section--intro__subtitle {
+
+            padding-bottom: .8rem;
+            font-weight: 300;
+        }
+
+.hero {
+    display: flex;
+    align-items: center;
+    min-height: 640px;
+    width: 100%;
+    background-image: url('../../assets/img/damian-zaleski-843-unsplash.jpg');
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero--content {
+
+        max-width: 700px;
+        margin-left: auto;
+    }
+
+.hero--content__title {
+            padding-bottom: .8rem;
+            color: #455a64;
+        }
+
+.hero--content__text {
+            padding-bottom: .8rem;
+        }
+
+.institute {
+
+    display: flex;
+    align-items: center;
+    min-height: 640px;
+    width: 100%;
+}
+
+.institute--information {
+        
+    }
+
 .button {
     border: 2px solid transparent;
     background-color: #5c6bc0;

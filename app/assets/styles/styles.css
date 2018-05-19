@@ -1,4 +1,7 @@
 @import 'base/_global';
 @import 'layout/bootstrap-grid';
 @import 'layout/_header';
+@import 'layout/_section';
+@import 'layout/_hero';
+@import 'layout/_institute';
 @import 'modules/_button';

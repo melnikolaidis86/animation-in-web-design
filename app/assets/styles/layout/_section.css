@@ -1,0 +1,19 @@
+.section {
+
+    &--intro {
+
+        margin-bottom: 35px;
+
+        &__title {
+
+            padding-bottom: .8rem;
+            color: #455a64;
+        }
+
+        &__subtitle {
+
+            padding-bottom: .8rem;
+            font-weight: 300;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.hero {
+    display: flex;
+    align-items: center;
+    min-height: 640px;
+    width: 100%;
+    background-image: url('../../assets/img/damian-zaleski-843-unsplash.jpg');
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    &--content {
+
+        max-width: 700px;
+        margin-left: auto;
+
+        &__title {
+            padding-bottom: .8rem;
+            color: #455a64;
+        }
+
+        &__text {
+            padding-bottom: .8rem;
+        }
+    }
+}

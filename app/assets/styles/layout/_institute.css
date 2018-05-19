@@ -1,0 +1,11 @@
+.institute {
+
+    display: flex;
+    align-items: center;
+    min-height: 640px;
+    width: 100%;
+
+    &--information {
+        
+    }
+}
