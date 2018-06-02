@@ -7,5 +7,49 @@
 
     &--information {
         
+        &--title {
+
+            font-size: 1.1rem;
+            font-weight: 400;
+            margin-bottom: 25px;
+            text-align: center;
+            color: #455a64;
+        }
+
+        &--description {
+            margin-bottom: 25px;
+            
+        }
+    }
+
+    &--image-gallery {
+
+        position: relative;
+        height: 350px;
+
+        & img {
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 8;
+            width: 100%;
+            height: 100%;
+            padding: .5rem;
+
+            & .active {
+
+                z-index: 10;
+            }
+
+ 
+        }
+
+  
+
+        &__last-active {
+
+            z-index: 9;
+        }
     }
 }
