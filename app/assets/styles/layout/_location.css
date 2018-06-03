@@ -1,26 +1,49 @@
 .location {
 
     min-height: 560px;
+    margin-bottom: 35px;
 
     &--google-map {
 
         height: 300px;
         width: 100%;
+        margin-bottom: 25px;
+
+        @mixin atMedium {
+
+            margin-bottom: 0;
+        }
     }
 
     &--address {
 
-        text-align: center;
+        display: flex;
+        justify-content: center;
 
-        & i {
-            color: #5c6bc0;
-            margin-right: 5px;
+        &--info {
+
+            & i {
+                color: #5c6bc0;
+                margin-right: 5px;
+            }
+
+            &__title {
+
+                font-size: 1.2rem;
+                font-weight: 500;
+                margin-bottom: 10px;
+            }
+
+            & p {
+
+                font-size: .9rem;
+                margin-bottom: 10px;
+            }
         }
+    }
 
-        &__title {
+    @mixin atMedium {
 
-            font-size: 1.2rem;
-            font-weight: 500;
-        }
+        margin-bottom: 0;
     }
 }

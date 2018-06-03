@@ -1,0 +1,19 @@
+{
+    "campus" : "Sae Institute",
+    "programTitle" : "Web Development & Web Design",
+    "programSubtitle" : "Our Certificate course with most modern concepts and principles in web industry",
+    "modules" : [
+        {
+            "moduleTitle" : "401 Module",
+            "moduleCourses" : ["Web Design", "HTML 5", "CSS 3"]
+        },
+        {
+            "moduleTitle" : "402 Module",
+            "moduleCourses" : ["Advnced Front End Development", "PHM - MySQL", "Human Computer Interaction"]    
+        },
+        {
+            "moduleTitle" : "501 Module",
+            "moduleCourses" : ["CMS & E-commerce Platforms", "Web Marketing", "Final Project"] 
+        }
+    ]
+}

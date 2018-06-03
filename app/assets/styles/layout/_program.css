@@ -5,6 +5,8 @@
     min-height: 480px;
     width: 100%;
 
+    margin-bottom: 35px;
+
     &--info-box {
 
         padding: 15px;
@@ -29,5 +31,10 @@
                 color: #5c6bc0;
             }
         }
+    }
+
+    @mixin atMedium {
+
+        margin-bottom: 0;
     }
 }

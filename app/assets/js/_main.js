@@ -21,6 +21,22 @@ setInterval(function() {
     $(this).next().slideDown();
   });
 
+  //Toggle Responsive Menu
+  if($(window).width() < 800) {
+    $('.main-navigation--nav').slideUp();
+  }
+
+  $('.button-collapse').click(function(event) {
+
+    event.preventDefault();
+
+    $('.main-navigation--nav').slideToggle( "slow" );
+
+  });
+
+  
+
+
   //Google Map
   function initMap() {
     var uluru = {lat: 37.953609, lng: 23.678907};

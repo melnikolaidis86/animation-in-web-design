@@ -10,17 +10,17 @@
 
 </head>
 <body>
-
+ 
     <header>
         <div class="container">
 
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="logo">
                         <img src="./assets/img/sae-logo.png" alt="site-logo">                            
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-md-8">
                     <div class="main-navigation">
                         <ul class="main-navigation--nav">
                             <li class="main-navigation--nav--item"><a class="main-navigation--nav--item__link" href="">Home</a></li>
@@ -28,13 +28,14 @@
                             <li class="main-navigation--nav--item"><a class="main-navigation--nav--item__link" href="">Program</a></li>
                             <li class="main-navigation--nav--item"><a class="main-navigation--nav--item__link" href="">FAQs</a></li>
                             <li class="main-navigation--nav--item"><a class="main-navigation--nav--item__link" href="">Location</a></li>
-                        </ul>
+                        </ul>             
                     </div>
                 </div>
             </div>
 
         </div>
 
+        <a href="#" class="button-collapse"><i class="fa fa-bars"></i></a>
     </header>
 
     <section class="hero">
@@ -43,7 +44,7 @@
 
                 <div class="hero--content">
                     <h1 class="hero--content__title">Welcome to SAE Institute</h1>
-                    <p class="hero--content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, aliquam sint? Eius animi quisquam consequatur.</p>
+                    <p class="hero--content__text">In our Campus you can advance your creativity skills. Learn about Music, Game, Video or Web production.</p>
                     <button class="hero--content__button button" type="button">Get Started!</button>
                 </div>
 
@@ -91,34 +92,25 @@
         <section class="program">
 
 
-            <div class="row">
+            <div class="row" id="program">
                 <div class="col-md-12 section--intro">
-                    <h3 class="section--intro__title">Web Development &amp; Web Design Program</h3>
-                    <h4 class="section--intro__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, totam?</h4>
+                    <h3 class="section--intro__title" id="programTitle"></h3>
+                    <h4 class="section--intro__subtitle" id="programSubtitle"></h4>
                 </div> 
 
                 <div class="col-md-4 program--info-box">
-                    <h4 class="program--info-box--title">401 Module</h4>
-                    <ul class="fa-ul program--info-box--list">
-                        <li><i class="fa-li fa fa-check-square"></i>Web Design</li>
-                        <li><i class="fa-li fa fa-check-square"></i>HTML &amp; CSS</li>
-                        <li><i class="fa-li fa fa-check-square"></i>Javascript</li>
+                    <h4 class="program--info-box--title" id="401moduleTitle"></h4>
+                    <ul class="fa-ul program--info-box--list" id="401moduleList">
                     </ul>
                 </div>
                 <div class="col-md-4 program--info-box">
-                    <h4 class="program--info-box--title">402 Module</h4>
-                    <ul class="fa-ul program--info-box--list">
-                        <li><i class="fa-li fa fa-check-square"></i>Advance Front-end Development</li>
-                        <li><i class="fa-li fa fa-check-square"></i>PHP &amp; SQL</li>
-                        <li><i class="fa-li fa fa-check-square"></i>Human Computer Interaction</li>
+                    <h4 class="program--info-box--title" id="402moduleTitle"></h4>
+                    <ul class="fa-ul program--info-box--list" id="402moduleList">
                     </ul>
                 </div>
                 <div class="col-md-4 program--info-box">
-                    <h4 class="program--info-box--title">502 Module</h4>
-                    <ul class="fa-ul program--info-box--list">
-                        <li><i class="fa-li fa fa-check-square"></i>Final Project</li>
-                        <li><i class="fa-li fa fa-check-square"></i>CMS &amp; E-commerce Platforms</li>
-                        <li><i class="fa-li fa fa-check-square"></i>Web Marketing</li>
+                    <h4 class="program--info-box--title" id="501moduleTitle"></h4>
+                    <ul class="fa-ul program--info-box--list" id="501moduleList">
                     </ul>
                 </div>
             </div>
@@ -130,29 +122,29 @@
             <div class="row">
                 <div class="col-md-12 section--intro">
                     <h3 class="section--intro__title">Frequently Answered Questions</h3>
-                    <h4 class="section--intro__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, totam?</h4> 
+                    <h4 class="section--intro__subtitle">Still considering? Let us help you with some frequently asked questions.</h4> 
                 </div>
 
             <ul class="FAQs--acordion">
 
                 <li class="FAQs--acordion--item__active">
                     <a href="" class="FAQs--acordion--item__title"><i class="fa fa-info"></i>Why choose us?</a>
-                    <p class="FAQs--acordion--item__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum magni fugiat sequi, assumenda voluptatibus doloremque nisi quibusdam nulla sed quaerat eligendi suscipit temporibus veritatis voluptatum!</p>
+                    <p class="FAQs--acordion--item__description">You would have the opportunity to work with best professional personnel, as well as practice through real life projects. Work alone or as a group, you would enhance your skills and create projects for your portfolio with best practices and techonologies. Either you have worked your web skills before or not, you would be comfortable with web concepts after your graduation</p>
                 </li>  
 
                 <li class="FAQs--acordion--item">
                     <a href="" class="FAQs--acordion--item__title"><i class="fa fa-info"></i>Program requirements</a>
-                    <p class="FAQs--acordion--item__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum magni fugiat sequi, assumenda voluptatibus doloremque nisi quibusdam nulla sed quaerat eligendi suscipit temporibus veritatis voluptatum!</p>
+                    <p class="FAQs--acordion--item__description">There are no pre-requirements to enter our program. All you need is to bring your best self and be eager to learn web concepts and principles, as well as continuesly practice through real life projects and homework.</p>
                 </li>  
 
                 <li class="FAQs--acordion--item">
                     <a href="" class="FAQs--acordion--item__title"><i class="fa fa-info"></i>Do I need special equipmet?</a>
-                    <p class="FAQs--acordion--item__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum magni fugiat sequi, assumenda voluptatibus doloremque nisi quibusdam nulla sed quaerat eligendi suscipit temporibus veritatis voluptatum!</p>
+                    <p class="FAQs--acordion--item__description">You do not need any special equipment in order to follow our program. In our campus you will find top edge computers with all the necessary software. However in order to practice and complete our project a personal computer is highly recommended. Our campus will help you supply with all the software you will need.</p>
                 </li>
 
                 <li class="FAQs--acordion--item">
                     <a href="" class="FAQs--acordion--item__title"><i class="fa fa-info"></i>Program Fees</a>
-                    <p class="FAQs--acordion--item__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum magni fugiat sequi, assumenda voluptatibus doloremque nisi quibusdam nulla sed quaerat eligendi suscipit temporibus veritatis voluptatum!</p>
+                    <p class="FAQs--acordion--item__description">You are very welcome to come to our Campus to discuss about fees. Fees depend on the time you register to our program, as well as the installments you choose. Send us your e-mail and we will inform you about the next available Open day you can come to see all our programs, our facilities and our personnel.</p>
                 </li>
 
             </ul>
@@ -165,7 +157,7 @@
             <div class="row">
                 <div class="col-md-12 section--intro">
                     <h3 class="section--intro__title">Location</h3>
-                    <h4 class="section--intro__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, totam?</h4> 
+                    <h4 class="section--intro__subtitle">Come to see us in our facilities. We will be glad to show you why so many poeple join our Campus.</h4> 
                 </div>
 
                 <div class="col-md-6">
@@ -173,10 +165,14 @@
                 </div>
 
                 <div class="col-md-6 location--address">
-                    <h5 class="location--address__title"><i class="fa fa-location-arrow"></i>Address</h5>
-                    <p>Lorem ipsum dolor sit.</p>
-                    <p>Lorem ipsum dolor sit.</p>
-                    <p>Lorem ipsum dolor sit.</p>
+                    <div class="location--address--info">
+                        <h5 class="location--address--info__title"><i class="fa fa-location-arrow"></i>Address</h5>
+                        <p><span>Korai 2, Moschato, Athens</span></p>
+                        <h5 class="location--address--info__title"><i class="fa fa-phone"></i>Call Number</h5>
+                        <p><span>Korai 2, Moschato, Athens</span></p>
+                        <h5 class="location--address--info__title"><i class="fa fa-envelope"></i>E-mail</h5>
+                        <p><span>athens@sae.edu</span></p>
+                    </div>
                 </div>
             </div>
 
@@ -221,9 +217,10 @@
             </div>
 
         </div>
-    </footer>
+    </footer>   
     
     <script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/Javascript" src="./assets/js/_ajax.js"></script>
     <script type="text/Javascript" src="./assets/js/_main.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWoOaPV8X7AOrVASvCRqqYHp1mjIQG4n8&callback=initMap"></script>
 
