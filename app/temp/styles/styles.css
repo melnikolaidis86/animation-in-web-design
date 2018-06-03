@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #f8f8f8;
 }
 
 h1 {
@@ -1578,6 +1579,7 @@ header .main-navigation--nav--item__link:hover {
 
             padding-bottom: .8rem;
             font-weight: 300;
+            color: #F9A825;
         }
 
 .hero {
@@ -1634,6 +1636,8 @@ header .main-navigation--nav--item__link:hover {
 
         position: relative;
         height: 350px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.4);
+
     }
 
 .institute--image-gallery img {
@@ -1645,19 +1649,184 @@ header .main-navigation--nav--item__link:hover {
             width: 100%;
             height: 100%;
             padding: .5rem;
-
  
         }
 
-.institute--image-gallery img .active {
+.program {
 
-                z-index: 10;
+    display: flex;
+    align-items: center;
+    min-height: 480px;
+    width: 100%;
+}
+
+.program--info-box {
+
+        padding: 15px;
+    }
+
+.program--info-box--title {
+
+            margin-bottom: 15px;
+            text-align: center;
+            font-weight: 400;
+            color: #455a64;
+        }
+
+.program--info-box--list > li {
+
+                padding-bottom: 10px;
             }
 
-.institute--image-gallery__last-active {
+.program--info-box--list i {
 
-            z-index: 9;
+                color: #5c6bc0;
+            }
+
+.FAQs {
+
+    display: flex;
+    align-items: center;
+    min-height: 640px;
+    width: 100%;
+}
+
+.FAQs--acordion {
+
+        list-style-type: none;
+    }
+
+.FAQs--acordion i {
+            margin-right: 5px;
         }
+
+.FAQs--acordion--item {
+
+            margin-bottom: 5px;
+        }
+
+.FAQs--acordion--item__title {
+
+                padding: 10px;
+                color: #fff;
+                text-decoration: none;
+                font-size: 1.2rem;
+                background-color: #5c6bc0;
+                display: block;
+                border-radius: 3px;
+                box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+            }
+
+.FAQs--acordion--item__description {
+
+                padding: 25px;
+            }
+
+.location {
+
+    min-height: 560px;
+}
+
+.location--google-map {
+
+        height: 300px;
+        width: 100%;
+    }
+
+.location--address {
+
+        text-align: center;
+    }
+
+.location--address i {
+            color: #5c6bc0;
+            margin-right: 5px;
+        }
+
+.location--address__title {
+
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+footer {
+
+    background-color: #5c6bc0;
+    padding: 20px;
+}
+
+footer .footer-logo img {
+
+        max-width: 100%;
+        height: 150px;
+    }
+
+footer .footer-navigation {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 150px;
+    }
+
+footer .footer-navigation--nav {
+
+            display: flex;
+            list-style: none;
+
+        }
+
+footer .footer-navigation--nav--item__link {
+
+                    text-decoration: none;
+                    color: #fff;
+                    padding: 9px;
+                    font-size: .9rem;
+                    transition: border, .3s ease-in;
+                }
+
+footer .footer-navigation--nav--item__link:hover {
+
+                        border-bottom: 1px solid #FFF;
+                    }
+
+footer .copyright {
+
+        padding: 10px 0;
+        color: #fff;
+        font-size: .85rem;
+    }
+
+footer .social-icons {
+
+        display: flex;
+        justify-content: flex-end;
+    }
+
+footer .social-icons--list {
+
+            display: flex;
+            list-style: none;
+
+        }
+
+footer .social-icons--list--item {
+
+                padding: 10px;
+            }
+
+footer .social-icons--list--item a {
+
+                    color: #FDD835;
+                    font-size: 2rem;
+                    transition: border, .3s ease-in;
+                    opacity: .8;
+                }
+
+footer .social-icons--list--item a:hover {
+
+                        color: #FDD835;
+                        opacity: 1;
+                    }
 
 .button {
     border: 2px solid transparent;

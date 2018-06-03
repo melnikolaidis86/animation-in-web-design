@@ -6,6 +6,8 @@
     <title>SAE INSTITUTE</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" text="text/css" href="./temp/styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 
@@ -78,45 +80,46 @@
                 
 
                 <div class="col-md-6 institute--image-gallery">
-                    <img src="./assets/img/image.jpg"  alt="">
-                    <img src="./assets/img/nick-morrison-325805-unsplash.jpg" class="active" alt="">
-                    <img src="./assets/img/william-iven-19843-unsplash.jpg"  alt="">
-                    <img src="./assets/img/fabian-grohs-423591-unsplash.jpg"  alt="">
+                    <img src="./assets/img/image.jpg" class="institute--image-gallery__active"  alt="">
+                    <img src="./assets/img/nick-morrison-325805-unsplash.jpg" alt="">
+                    <img src="./assets/img/william-iven-19843-unsplash.jpg" alt="">
+                    <img src="./assets/img/fabian-grohs-423591-unsplash.jpg" alt="">
                 </div>
             </div>
         </section>
 
         <section class="program">
 
+
             <div class="row">
-                <div class="col-md-12">
-                    <h3>Web Development &amp; Web Design Program</h3>
-                    <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, totam?</h4>
+                <div class="col-md-12 section--intro">
+                    <h3 class="section--intro__title">Web Development &amp; Web Design Program</h3>
+                    <h4 class="section--intro__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, totam?</h4>
                 </div> 
 
-                <div class="col-md-4">
-                    <h4>401 Module</h4>
-                    <ol>
-                        <li>Web Design</li>
-                        <li>HTML &amp; CSS</li>
-                        <li>Javascript</li>
-                    </ol>
+                <div class="col-md-4 program--info-box">
+                    <h4 class="program--info-box--title">401 Module</h4>
+                    <ul class="fa-ul program--info-box--list">
+                        <li><i class="fa-li fa fa-check-square"></i>Web Design</li>
+                        <li><i class="fa-li fa fa-check-square"></i>HTML &amp; CSS</li>
+                        <li><i class="fa-li fa fa-check-square"></i>Javascript</li>
+                    </ul>
                 </div>
-                <div class="col-md-4">
-                    <h4>402 Module</h4>
-                    <ol>
-                        <li>Advance Front-end Development</li>
-                        <li>PHP &amp; SQL</li>
-                        <li>Human Computer Interaction</li>
-                    </ol>
+                <div class="col-md-4 program--info-box">
+                    <h4 class="program--info-box--title">402 Module</h4>
+                    <ul class="fa-ul program--info-box--list">
+                        <li><i class="fa-li fa fa-check-square"></i>Advance Front-end Development</li>
+                        <li><i class="fa-li fa fa-check-square"></i>PHP &amp; SQL</li>
+                        <li><i class="fa-li fa fa-check-square"></i>Human Computer Interaction</li>
+                    </ul>
                 </div>
-                <div class="col-md-4">
-                    <h4>502 Module</h4>
-                    <ol>
-                        <li>Final Project</li>
-                        <li>CMS &amp; E-commerce Platforms</li>
-                        <li>Web Marketing</li>
-                    </ol>
+                <div class="col-md-4 program--info-box">
+                    <h4 class="program--info-box--title">502 Module</h4>
+                    <ul class="fa-ul program--info-box--list">
+                        <li><i class="fa-li fa fa-check-square"></i>Final Project</li>
+                        <li><i class="fa-li fa fa-check-square"></i>CMS &amp; E-commerce Platforms</li>
+                        <li><i class="fa-li fa fa-check-square"></i>Web Marketing</li>
+                    </ul>
                 </div>
             </div>
 
@@ -124,46 +127,53 @@
 
         <section class="FAQs">
 
-            <h3>Frequently Answered Questions</h3>
-            <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, totam?</h4> 
+            <div class="row">
+                <div class="col-md-12 section--intro">
+                    <h3 class="section--intro__title">Frequently Answered Questions</h3>
+                    <h4 class="section--intro__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, totam?</h4> 
+                </div>
 
-            <ol>
-                <li>
-                    <h4>Why choose us?</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum magni fugiat sequi, assumenda voluptatibus doloremque nisi quibusdam nulla sed quaerat eligendi suscipit temporibus veritatis voluptatum!</p>
+            <ul class="FAQs--acordion">
+
+                <li class="FAQs--acordion--item__active">
+                    <a href="" class="FAQs--acordion--item__title"><i class="fa fa-info"></i>Why choose us?</a>
+                    <p class="FAQs--acordion--item__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum magni fugiat sequi, assumenda voluptatibus doloremque nisi quibusdam nulla sed quaerat eligendi suscipit temporibus veritatis voluptatum!</p>
+                </li>  
+
+                <li class="FAQs--acordion--item">
+                    <a href="" class="FAQs--acordion--item__title"><i class="fa fa-info"></i>Program requirements</a>
+                    <p class="FAQs--acordion--item__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum magni fugiat sequi, assumenda voluptatibus doloremque nisi quibusdam nulla sed quaerat eligendi suscipit temporibus veritatis voluptatum!</p>
+                </li>  
+
+                <li class="FAQs--acordion--item">
+                    <a href="" class="FAQs--acordion--item__title"><i class="fa fa-info"></i>Do I need special equipmet?</a>
+                    <p class="FAQs--acordion--item__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum magni fugiat sequi, assumenda voluptatibus doloremque nisi quibusdam nulla sed quaerat eligendi suscipit temporibus veritatis voluptatum!</p>
                 </li>
-                <li>
-                    <h4>Program requirements</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum magni fugiat sequi, assumenda voluptatibus doloremque nisi quibusdam nulla sed quaerat eligendi suscipit temporibus veritatis voluptatum!</p>
+
+                <li class="FAQs--acordion--item">
+                    <a href="" class="FAQs--acordion--item__title"><i class="fa fa-info"></i>Program Fees</a>
+                    <p class="FAQs--acordion--item__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum magni fugiat sequi, assumenda voluptatibus doloremque nisi quibusdam nulla sed quaerat eligendi suscipit temporibus veritatis voluptatum!</p>
                 </li>
-                <li>
-                    <h4>Do I need special equipmet?</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum magni fugiat sequi, assumenda voluptatibus doloremque nisi quibusdam nulla sed quaerat eligendi suscipit temporibus veritatis voluptatum!</p>
-                </li>
-                <li>
-                    <h4>Program Fees</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum magni fugiat sequi, assumenda voluptatibus doloremque nisi quibusdam nulla sed quaerat eligendi suscipit temporibus veritatis voluptatum!</p>
-                </li>
-            </ol>
+
+            </ul>
+            </div>
 
         </section>
 
         <section class="location">
 
-            
-
             <div class="row">
-                <div class="col-md-12">
-                    <h3>Location</h3>
-                    <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, totam?</h4> 
+                <div class="col-md-12 section--intro">
+                    <h3 class="section--intro__title">Location</h3>
+                    <h4 class="section--intro__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, totam?</h4> 
                 </div>
 
                 <div class="col-md-6">
-                    <div id="map" style="height: 400px; width: 100%"></div>
+                    <div id="map" class="location--google-map"></div>
                 </div>
 
-                <div class="col-md-6">
-                    <h5>Address</h5>
+                <div class="col-md-6 location--address">
+                    <h5 class="location--address__title"><i class="fa fa-location-arrow"></i>Address</h5>
                     <p>Lorem ipsum dolor sit.</p>
                     <p>Lorem ipsum dolor sit.</p>
                     <p>Lorem ipsum dolor sit.</p>
@@ -179,17 +189,19 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-md-6 icons">
-                    <img src="" alt="icons">
+                <div class="col-md-4 icons footer-logo">
+                    <img src="./assets/img/SAE_international_logo.png" alt="sae-logo-2">
                 </div>
-                <div class="col-md-6">
-                    <ul>
-                        <li>Home</li>
-                        <li>Institute</li>
-                        <li>Program</li>
-                        <li>FAQs</li>
-                        <li>Location</li>
-                    </ul>
+                <div class="col-md-8">
+                    <div class="footer-navigation">
+                        <ul class="footer-navigation--nav">
+                            <li class="footer-navigation--nav--item"><a href="" class="footer-navigation--nav--item__link">Home</a></li>
+                            <li class="footer-navigation--nav--item"><a href="" class="footer-navigation--nav--item__link">Institute</a></li>
+                            <li class="footer-navigation--nav--item"><a href="" class="footer-navigation--nav--item__link">Program</a></li>
+                            <li class="footer-navigation--nav--item"><a href="" class="footer-navigation--nav--item__link">FAQs</a></li>
+                            <li class="footer-navigation--nav--item"><a href="" class="footer-navigation--nav--item__link">Location</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
@@ -197,34 +209,23 @@
                 <div class="col-md-6 copyright">
                     <p>&copy; 2018 all rights reserved | Designed by SAE group</p>
                 </div>
-                <div class="col-md-6 social-icons">
-                    <ul>
-                        <li><img src="" alt="facebook"></li>
-                        <li><img src="" alt="twitter"></li>
-                        <li><img src="" alt="instagram"></li>
-                    </ul>
+                <div class="col-md-6">
+                    <div class="social-icons">
+                        <ul class="social-icons--list">
+                            <li class="social-icons--list--item"><a href=""><i class="fa fa-facebook-square"></i></a></li>
+                            <li class="social-icons--list--item"><a href=""><i class="fa fa-twitter-square"></i></a></li>
+                            <li class="social-icons--list--item"><a href=""><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
         </div>
     </footer>
-
-    <script>
-            function initMap() {
-              var uluru = {lat: -25.363, lng: 131.044};
-              var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 4,
-                center: uluru
-              });
-              var marker = new google.maps.Marker({
-                position: uluru,
-                map: map
-              });
-            }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWoOaPV8X7AOrVASvCRqqYHp1mjIQG4n8&callback=initMap"></script>
+    
     <script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script type="text/Javascript" src="./assets/js/_main.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWoOaPV8X7AOrVASvCRqqYHp1mjIQG4n8&callback=initMap"></script>
 
 </body>
 </html>

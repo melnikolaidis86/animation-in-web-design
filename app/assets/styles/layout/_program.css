@@ -1,0 +1,33 @@
+.program {
+
+    display: flex;
+    align-items: center;
+    min-height: 480px;
+    width: 100%;
+
+    &--info-box {
+
+        padding: 15px;
+
+        &--title {
+
+            margin-bottom: 15px;
+            text-align: center;
+            font-weight: 400;
+            color: #455a64;
+        }
+
+        &--list {
+
+            & > li {
+
+                padding-bottom: 10px;
+            }
+
+            & i {
+
+                color: #5c6bc0;
+            }
+        }
+    }
+}

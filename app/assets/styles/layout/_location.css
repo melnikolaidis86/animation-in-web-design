@@ -1,0 +1,26 @@
+.location {
+
+    min-height: 560px;
+
+    &--google-map {
+
+        height: 300px;
+        width: 100%;
+    }
+
+    &--address {
+
+        text-align: center;
+
+        & i {
+            color: #5c6bc0;
+            margin-right: 5px;
+        }
+
+        &__title {
+
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+    }
+}
