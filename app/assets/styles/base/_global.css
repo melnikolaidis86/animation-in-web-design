@@ -1,3 +1,5 @@
+/* Global Rules and usual margin and padding resetting */
+
 * {
     box-sizing: border-box;
     margin: 0;

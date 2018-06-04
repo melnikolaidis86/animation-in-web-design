@@ -1,3 +1,4 @@
+// Ajax call for program Json
 $.getJSON('./assets/json/program.json', function(data) {
 
     //Injecting section titles

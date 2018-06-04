@@ -1,3 +1,4 @@
+/* Intro section with parallax effext */
 .hero {
     display: flex;
     align-items: center;
@@ -17,6 +18,7 @@
         max-width: 700px;
         margin-left: auto;
         margin-right:  auto;
+        animation: fadeinUp 1s ease-in-out;
 
         &__title {
             padding-bottom: .8rem;
